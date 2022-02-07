@@ -1,0 +1,31 @@
+.navbar{
+    background-color: black;
+    font-weight: 600;
+}
+
+.header{
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.header h6{
+    color:#007BFF;;
+    font-size: 1em;
+    margin:0;
+}
+
+table {
+    background-color: black;
+
+    
+}
+
+td, th{
+    color:#007BFF;
+    font-size: 1.4rem;
+}
+
+fas fa-edit{
+    background-color: red;
+}
