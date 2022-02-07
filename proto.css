@@ -1,31 +1,71 @@
 .navbar{
     background-color: black;
     font-weight: 600;
+
+}
+
+.nav-link{
+    color: gold;
+
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.notification{
+    margin-left: 40rem;
+}
+
+
+.mybtn{
+    background-color: black;
+    border-color: gold;
+   color: white
 }
 
 .header{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 3rem;
     background-color: black;
-    text-align: center;
-    margin: 0;
+   
+  }
+
+.hdr-btn2{
+    background: black;
+    color: gray;
+    margin-left: 1.5rem;
+
 }
 
-.header h6{
-    color:#007BFF;;
-    font-size: 1em;
-    margin:0;
+.hdr-btn1{
+    background: black;
+   color: white;
+   margin-left: 3rem;
+   }
+   .hdrbtngroup{
+margin-right: 5px;
+   
 }
+
+.fa-plus-circle{
+padding-right: 50px;
+    color:gold;
+  
+}
+
 
 table {
-    background-color: black;
-
-    
-}
+    background-color: gray;
+    }
 
 td, th{
-    color:#007BFF;
+    color:gold;
     font-size: 1.4rem;
 }
 
-fas fa-edit{
-    background-color: red;
+tr,tr:hover{
+    background-color:black;
 }
