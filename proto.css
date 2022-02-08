@@ -53,9 +53,14 @@ margin-right: 5px;
 .fa-plus-circle{
 padding-right: 50px;
     color:gold;
+    cursor:pointer;
   
 }
 
+.fa-plus-circle:hover{
+color:goldenrod;
+margin: 0.5px;
+}
 
 table {
     background-color: gray;
@@ -68,4 +73,12 @@ td, th{
 
 tr,tr:hover{
     background-color:black;
+}
+
+td > i{
+cursor: pointer;
+}
+
+.fa-bookmark{
+margin-left: 5px;
 }
