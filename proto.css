@@ -90,3 +90,7 @@ margin-left: 5px;
 .tbl2 td{
     border: 2px solid;
 }
+
+.italic {
+    font-style:italic;
+}

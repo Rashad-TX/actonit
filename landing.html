@@ -16,14 +16,57 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <nav>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg main">
+  <a class="navbar-brand" href="#"><img src="images/ACTONITbg.png" height="100"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Demo</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><button class="register">Register</button></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="#"><button class="signin">Sign In</button></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--End Of Navbar-->
 
-    </nav>
-    <section class="header">
-<div class="container1"> <img src="images/Landing Page/Mockups/Test1.png"></div>
-<div class="container2"><img src="images/Landing Page/Mockups/Test3.png"></div>
-<div class="container3"><img src="images/Landing Page/Mockups/Test2.png"></div>
+<!--Start of Section1-->
+    <section class="container header">
+<div class="row">
+       <div class="col col-sm-12 col-lg-5">
+            <h1>Knowledge Isn't Power Until You<br> <span class="italic">ACTONIT!</span></h1>
+            </div>
+            <div class ="col col-sm-12 col-lg-5 mx-5 mock1">
+                <img src="images/Landing Page/Mockups/hp1.png" height="500">
+            </div>
+</div>
+<div class="row">
+    <div class="col">
+<p class="sub1">ACTONIT not only ensures that you remember<br> the powerful messages that most people forget<br> after reading books; but it also helps ensure that<br> you apply what you learned.</p>
+<button class="register"> Register</button>  
+</div>
+    
+  
+</div>
     </section>
+    <!--End Of Section !-->
 
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

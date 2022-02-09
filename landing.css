@@ -1,0 +1,38 @@
+.main{
+    background-color: gold;
+}
+
+.nav-link{
+    color: black;
+    font-weight:600;
+}
+.signin{
+    background:black;
+    color: gold;
+   
+}
+
+.register{
+    background-color: gold;
+    border: 2px black solid;
+    font-weight: bold;
+}
+
+.header{
+    margin: 3rem;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.italic{
+    font-style: italic;
+    text-decoration: underline gold 5px;
+    font-size:5.5rem;
+}
+
+.sub1{
+    font-size:1.2rem;
+    font-weight: 500;
+}
