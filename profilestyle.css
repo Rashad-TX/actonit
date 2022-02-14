@@ -1,0 +1,11 @@
+.profile-head {
+    transform: translateY(5rem)
+}
+
+.cover {
+    background: gold;
+}
+
+body {
+    background: black;
+}
