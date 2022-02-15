@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="profilestyle.css">
+
+  <link rel="icon" href="images/favicon.ico">
+  <title>ACTONIT Profile</title>
+</head>
+
+<body>
+
+  <!--Navbar logo-->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html"><img src="images/ACTONITbg2.png" height="70" width="115"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--Navbar -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Daily Quote</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Help</a>
+        </li>
+        <li class="nav-item"><!--notifcations-->
+          <a class="nav-link notification" href="#"> <i class="fas fa-bell fa-lg"></i></a>
+        </li>
+        <li class="nav-item profile"><!--profile-->
+          <a class="nav-link" href="#"><i class="fas fa-user-circle fa-lg"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+      <div class="row py-5 px-4">
+        <div class="col-md-8 mx-auto">
+            <!-- Profile widget -->
+            <div class="rounded overflow-hidden">
+                <div class="px-4 pt-0 pb-4 cover">
+                    <div class="media align-items-end profile-head">
+                        <div class="mr-3">
+                          <img src="images/Headshot.jpg" alt="user photo" width="130" class="rounded mb-2 img-thumbnail">
+                        </div>
+                        <div class="media-body mb-5">
+                            <h4 class="mt-0 mb-0">Kim Sams-Carmona</h4>
+                            <p class="small mb-0"><a href="#" class="text-reset "><i class="fas fa-star"></i> Pro Member</a></p>
+                            <p class="small mb-0"><a href="#" class="text-reset"><i class="fas fa-edit"></i> Edit Profile</a></p>
+                            <p class="small mb-0"><a href="#" class="text-reset"><i class="fas fa-cog"></i> Notification Settings</a></p>
+                            <p class="small mb-4"><a href="#" class="text-reset"><i class="fas fa-sign-out-alt"></i> Sign Out</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 d-flex justify-content-end text-center text-light" style="background-color: black;">
+                  <ul class="list-inline mb-0">
+                      <li class="list-inline-item ">
+                          <h5 class="font-weight-bold mb-0 d-block">215</h5><small><i class="fas fa-book"></i> Books</small>
+                      </li>
+                      <li class="list-inline-item">
+                          <h5 class="font-weight-bold mb-0 d-block">745</h5><small><i class="fas fa-user mr-1"></i>Followers</small>
+                      </li>
+                      <li class="list-inline-item">
+                          <h5 class="font-weight-bold mb-0 d-block">340</h5><small><i class="fas fa-user mr-1"></i>Following</small>
+                      </li>
+                  </ul>
+                </div>
+                <div class="px-4 py-3 about">
+                    <h5 class="mb-0">About</h5>
+                    <div class="p-4 rounded shadow-sm" style="background-color: black;">
+                        <p class="font-italic mb-0">I work as a Senior Data Analyst by day, study web-development by night, but my number one job title is "Mommy"!
+                    </div>
+                </div>
+                <!--Bookshelf-->
+                <div class="py-4 px-4 mt-4 shelf">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <h5 class="mb-0">Recent Bookshelf Additions</h5><a href="#" class="btn btn-link">Show all</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 mb-2 pr-lg-1"><a href="#"><img src="images/books/How_toddlers_thrive.jpg" alt="How Toddlers Thrive" class="img-fluid rounded book mx-auto d-block"></a></div>
+                        <div class="col-lg-6 mb-2 pl-lg-1"><a href="#"><img src="images/books/seizing_success.jpg" alt="Seizing Success" class="img-fluid rounded book mx-auto d-block"></a></div>
+                        <div class="col-lg-6 pr-lg-1 mb-2"><a href="#"><img src="images/books/badass.jpg" alt="You Are A Badass" class="img-fluid rounded book mx-auto d-block"></a></div>
+                        <div class="col-lg-6 pl-lg-1"><a href="#"><img src="images/books/anything.jpg" alt="" class="img-fluid rounded book mx-auto d-block"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
