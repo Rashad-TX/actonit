@@ -4,8 +4,27 @@
 
 .cover {
     background: gold;
+    border: 2px solid black;
 }
 
 body {
-    background: black;
+    background: black !important;
+}
+
+ul {
+    color: gold;
+}
+
+.about, .shelf {
+    color: gold;
+    background-color: black;
+    border: 2px solid gold;
+}
+
+.book {
+    border: 1px solid gold;
+}
+
+.btn-link {
+    color: gold;
 }
