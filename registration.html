@@ -20,12 +20,12 @@
             justify-content: center;
             align-items: center;
             padding: 10px;
-            background: gold;
+            background: black;
         }
         .container {
             max-width: 700px;
             width: 100%;
-            background: white;
+            background: gold;
             padding: 25px 30px;
             border-radius: 5px;
         }
@@ -34,15 +34,7 @@
             font-weight: 500;
             position: relative;
         }
-        .container .title::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            height: 3px;
-            width: 30px;
-            background: linear-gradient(135deg, gold, black)
-        }
+        
         .container form .user-details {
             display: flex;
             flex-wrap: wrap;
@@ -71,10 +63,10 @@
         }
         .user-details .input-box input:focus,
         .user-details .input-box input:valid {
-            border-color: gold;
+            border-color: black;
         }
         form .gender-details .gender-title {
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 500;
         }
         form .gender-details .category {
@@ -121,10 +113,10 @@
             font-weight: 500;
             letter-spacing: 1px;
             border-radius: 5px;
-            background: linear-gradient(135deg, gold, black)
+            background: black;
         }
         form .button input:hover {
-            background: linear-gradient(-135deg, gold, black)
+            background: linear-gradient(gold, black)
         }
         @media (max-width: 584px) {
             .container {
@@ -139,34 +131,34 @@
             }
         }
     </style>
-<img src="./images/ACTONITbg2.png">
+
     <div class="container">
-        <div class="title">ACTONIT Registration</div>
-        <form action="#">
+        <div class="title"><img src="./images/ACTONITbg2.png" width="100px"></div>
+        <form action="#" autocomplete="on">
             <div class="user-details">
                 <div class="input-box">
                     <span class="details">Full Name</span>
-                    <input type="text" placeholder="Enter your full name" required>
+                    <input type="text" placeholder="Ex: Jane Doe" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Username</span>
-                    <input type="text" placeholder="Enter your username" required>
+                    <input type="text" placeholder="Ex: jane4books" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Email</span>
-                    <input type="text" placeholder="Enter your email" required>
+                    <input type="email" placeholder="Ex: janedoe@webservice.com" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Phone Number</span>
-                    <input type="text" placeholder="Enter your phone number" required>
+                    <input type="tel" placeholder="Ex: 702-555-1234" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Password</span>
-                    <input type="text" placeholder="Enter your password" required>
+                    <input type="password" placeholder="Enter your password" required>
                 </div>
                 <div class="input-box">
                     <span class="details">Confirm Password</span>
-                    <input type="text" placeholder="Please confirm your password" required>
+                    <input type="password" placeholder="Please confirm your password" required>
                 </div>
             </div>
             <div class="gender-details">
@@ -200,4 +192,4 @@
         </form>
     </div>
 </body>
-</html>
+</html> 
